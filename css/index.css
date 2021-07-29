@@ -1,0 +1,159 @@
+body {
+    background-color: #f4f4fc;
+}
+
+header {
+    position: relative;
+    top: 50px;
+}
+
+header .btn {
+    background-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+}
+
+header .btn:hover {
+    border-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+    border-image-slice: 1;
+    background: transparent;
+}
+
+.bottom-header .btn {
+    border-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    color: #000;
+}
+
+.bottom-header .btn:hover {
+    background-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+    color: #fff;
+}
+
+header .overlay {
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.bg-header {
+    position: relative;
+    background: url("../images/Montages3.jpg") center center / cover no-repeat;
+    padding-bottom: 75px;
+}
+
+section {
+    margin: 120px 0;
+}
+
+.section-advantages {
+    background: #e7eaf1;
+}
+
+.section-advantages i {
+    color: #043392
+}
+
+p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.bg-advantages {
+    background-color: #fff;
+}
+
+.advantages {
+    position: absolute;
+}
+
+section.our-service .overlay {
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.bg-our-service {
+    position: relative;
+    background: url("../images/-Artisan-1024x480-640x360.jpg") center center / cover no-repeat;
+}
+
+.bg-our-service i {
+    color: #043392
+}
+
+#carousel .i-carousel {
+    color: #000;
+}
+
+section.bg-project .overlay {
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.bg-project {
+    background: url("../images/old_1920.jpg") center center / cover no-repeat;
+    position: relative;
+    padding: 50px 0;
+}
+
+.bg-project .btn {
+    border-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+}
+
+.bg-project .btn:hover {
+    background-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+}
+
+.project-text {
+    position: inherit;
+}
+
+.card a {
+    text-decoration: underline;
+}
+
+footer.bg-footer {
+    background-color: rgb(1, 16, 37);
+}
+
+footer i {
+    color: rgb(90, 207, 211);
+}
+
+.bg-bottom-footer {
+    background-color: rgb(2, 1, 36);
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+footer .btn {
+    background-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+}
+
+footer .btn:hover {
+    border-image: linear-gradient(to right, #011742 0%, #03247c 51%, #034f6d 100%);
+    border-image-slice: 1;
+    background: transparent;
+}
+
+footer .bg-bottom-footer a {
+    text-decoration: none;
+    color: #fff;
+}

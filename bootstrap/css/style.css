@@ -1,0 +1,104 @@
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+header {
+    height: auto;
+    width: 100%;
+    padding: 192px 0;
+}
+
+header.bg-masthead {
+    position: relative;
+    background: url("../../img/bg-masthead.jpg") center center / cover no-repeat;
+}
+
+header .overlay {
+    position: absolute;
+    background-color: rgb(33, 37, 41);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.section-icones {
+    padding: 7rem 0;
+}
+
+.section-icones .section-icones-item {
+    max-width: 20rem;
+}
+
+.section-icones .section-icones-item .section-icones-icon {
+    height: 7rem;
+}
+
+.section-icones .section-icones-item .section-icones-icon i {
+    font-size: 4.5rem;
+}
+
+.bg-showcase {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.bg-showcase-1 {
+    background: url("../../img/bg-showcase-1.jpg");
+}
+
+.bg-showcase-2 {
+    background: url("../../img/bg-showcase-2.jpg");
+}
+
+.bg-showcase-3 {
+    background: url("../../img/bg-showcase-3.jpg");
+}
+
+.bg-showcase-text {
+    padding: 3rem !important;
+}
+
+.section-testimonials {
+    padding: 7rem 0;
+}
+
+.section-testimonials .section-testimonials-item {
+    max-width: 18rem;
+}
+
+.section-testimonials .section-testimonials-item img {
+    max-width: 12rem;
+}
+
+.section-ready {
+    position: relative;
+    background-color: #343a40;
+    background: url("../../img/bg-masthead.jpg") no-repeat center center / cover;
+    padding: 7rem 0;
+}
+
+.section-ready>.overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+footer.footer {
+    padding: 4rem 0;
+}

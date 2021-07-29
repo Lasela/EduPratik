@@ -1,0 +1,21 @@
+.bg-masthead {
+    position: relative;
+    padding: 180px 0;
+    background: url("../images/Montages3.jpg") center center / cover no-repeat;
+}
+
+header .overlay {
+    position: absolute;
+    background-color: rgb(33, 37, 41);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+section{
+    padding: 100px 0px;
+}
+.avantage-bootstrap i, .text-right i{
+    color: rgb(14, 149, 240);
+}

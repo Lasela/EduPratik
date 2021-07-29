@@ -1,0 +1,106 @@
+.section1{
+    background: url("../images/1481994645105.2.jpeg") center center/cover no-repeat;
+   min-height: 400px;
+   height: 100vh;
+   position: relative;
+  
+    }
+
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0.6;
+
+    }
+    .text1{
+        padding-top:250px;
+        position: absolute;
+    }
+    .colortext{
+        color:white ;
+    }
+    .sombre{
+        position: relative;
+    }
+    .sombre:hover .somb{
+        position: absolute;
+        background-color:#00000080;
+        height:100%;
+        width:100%;
+    }
+    .aa{
+        visibility: hidden;/* detail */
+   }
+   .sombre:hover .aa{
+       visibility: visible;
+       position: absolute;
+       bottom: 60px;
+       left: 100px;
+       color: #000;
+   background-color: white;
+   text-decoration: none;
+    padding:15px ;
+    margin: 3em;
+   
+   }
+   .sombre:hover .aa:hover {
+       background-color: rgba(243, 12, 12, 0.05);
+        color: white;
+       border:2px solid white;
+   transition: all 1s;  
+   }
+     .img-dim{
+         width: 500px;
+         height: 500px;
+
+     }   
+     .img-carrousel{
+         margin-top: 25px;
+     }
+     .section2{
+         margin-top: 25px;
+         padding-top:50px;
+     }
+     .section5{
+         margin-top: 50px;
+         padding-top:50px;
+     }
+     .section3{
+         padding-top: 100px;
+         padding-bottom:10px;
+     }
+     
+footer.bg-footer {
+    background-color: rgb(1, 16, 37);
+}
+
+footer i {
+    color: rgb(90, 207, 211);
+}
+
+.bg-bottom-footer {
+    background-color: rgb(2, 1, 36);
+}
+
+footer p {
+    opacity: 0.5;
+}
+
+footer .btn {
+    background-image: linear-gradient(to right, #050608 0%, #3cd6eb 51%, #d68711 100%);
+}
+
+footer .btn:hover {
+    border-image: linear-gradient(to right, #050608 0%, #3cd6eb 51%, #d68711 100%);
+    border-image-slice: 1;
+    background: transparent;
+}
+
+footer .bg-bottom-footer a {
+    text-decoration: none;
+    color: #fff;
+}
